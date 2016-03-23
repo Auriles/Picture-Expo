@@ -1,0 +1,20 @@
+Programme durant les semaines à venir : 
+
+Semaine du 21/03 au 27/03 : Fin de l'apprentissage du Javascript
+
+Semaine du 28/03 au 03/04 : Début de la création du site
+- Mise en place du HTML/CSS
+
+Semaine du 04/04 au 10/04 : Montage et création de la galerie d’images
+- Utilisation du framework bootstrap
+- Carousel pour le défilement de la galerie d'images
+
+Semaine du 11/04 au 17/04 : Finalisation du site et vérifications techniques
+- Vérifications dimension des images
+- Code propre et organisé
+- Design de la galerie
+
+Semaine du 18/04 au 24/04 : Powerpoint de présentation, (vidéo?) + préparation de l’oral
+- Création du Powerpoint pour la soutenance
+- Indications sur l'origine de l'image et sa description (à implémenter dans le code)
+- Préparation de l'oral 
