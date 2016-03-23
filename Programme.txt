@@ -1,6 +1,9 @@
 Programme durant les semaines à venir : 
 
 Semaine du 21/03 au 27/03 : Fin de l'apprentissage du Javascript
+- Finir l'apprentissage du Javascript 
+- Apprentissage de Bootstrap
+- Gérer le Github
 
 Semaine du 28/03 au 03/04 : Début de la création du site
 - Mise en place du HTML/CSS
