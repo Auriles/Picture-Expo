@@ -4,7 +4,7 @@ Le but étant de réaliser une page web, contenant un titre, au moins un paragra
 
 La page web présentera entre 10 et 20 images (JPEG, PNG, BMP, GIF …) sous un format miniature d’une taille adaptée à une lecture aisée par l’utilisateur.
 
-Ces images ds'afficheront côte à côte dans la mesure du possible et contiendront chacune un petit texte explicatif de quelques mots.
+Ces images s'afficheront côte à côte dans la mesure du possible et contiendront chacune un petit texte explicatif de quelques mots.
 
 Le choix des images et des légendes refléteront la thématique de la culture digitale du monde contemporain.
 
