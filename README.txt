@@ -8,5 +8,5 @@ Ces images s'afficheront côte à côte dans la mesure du possible et contiendro
 
 Le choix des images et des légendes refléteront la thématique de la culture digitale du monde contemporain.
 
-Lors du clic sur une image, l’image s'affichera à sa taille d’origine. Une navigation entre les différentes images sera également présente (visionneuse?)
+Lors du clic sur une image, l’image s'affichera à sa taille d’origine. Une navigation entre les différentes images sera également présente (visionneuse)
 
