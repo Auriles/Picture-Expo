@@ -8,6 +8,8 @@ Diviser la galerie d'images en plusieurs parties :
 1) L'informatique à l'époque 
 2) La culture digitale de nos jours
 3) En marche vers l'avenir
+4) Le code : une manière d'évoluer
+5) Le hack : une manière de se protéger
 
 
 
@@ -26,3 +28,10 @@ Diviser la galerie d'images en plusieurs parties :
 3) En marche vers l'avenir
 - parler des objets connectés
 - réalité virtuelle 
+
+4) Le code : une manière d'évoluer
+- le développement informatique 
+- une avancée certaine au vu de nombreuses technologies
+
+5) Le hack : une manière de se protéger
+- sécuriser ses informations
