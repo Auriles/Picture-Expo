@@ -78,9 +78,7 @@ body, html {
   transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-/******************************
-Image Gallery
-******************************/
+/* Galerie d'images */
 .images ul li {
   float: left;
   width: 150px;
@@ -96,9 +94,7 @@ Image Gallery
   opacity: 1.0;
 }
 
-/******************************
-Button Close
-******************************/
+/* Bouton croix */
 .current-full .close {
   visibility:visible;
 }
