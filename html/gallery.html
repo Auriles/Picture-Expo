@@ -8,8 +8,8 @@
     <title>Gallery</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel='stylesheet prefetch' href='http://dimsemenov-static.s3.amazonaws.com/dist/magnific-popup.css'>
-    <link rel="stylesheet" href="../css/gallery.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/gallery.css"><!-- CSS de la galerie -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> <!-- css barre navigation bootstrap -->
   
   </head>
 
@@ -35,24 +35,28 @@
                 <li><a href="/html/gallery.html"> Galerie d'images </a></li>
             </ul> 
             
-            <div>
+            <div> <!-- Menu coulissant Début -->
             <ul class="nav navbar-nav">
                 <li><a href="#"></a></li>
                 <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Parts <span class="caret"></span></a>
-            <ul class="dropdown-menu" style="background-color:black;">
-                <li><a href="" style="color:grey"> L'informatique à l'époque </a></li>
-                <li><a href="" style="color:grey" > La culture digitale de nos jours </a></li>
-                <li><a href="" style="color:grey"> En marche vers l'avenir </a></li>
-                <li><a href="" style="color:grey"> Le code : une manière d'évoluer </a></li>
-                <li><a href="" style="color:grey"> Le hacking : une manière de se protéger </a></li>
+            <ul class="dropdown-menu" style="background-color:black;"> 
+                <li><a href="http://delmas-rigoutsos.nom.fr/documents/YDelmas-histoire_informatique.pdf" style="color:grey"> L'informatique à l'époque </a></li>
+                <li><a href="http://www.netpublic.fr/2015/11/25-videos-pour-comprendre-la-culture-numerique/" style="color:grey" > La culture digitale de nos jours </a></li>
+                <li><a href="https://www.oculus.com/en-us/" style="color:grey"> En marche vers l'avenir </a></li>
+                <li><a href="https://openclassrooms.com/dashboard" style="color:grey"> Le code : une manière d'évoluer </a></li>
+<<<<<<< HEAD
+                <li><a href="http://www.jsand.net/tutoriel_hacking_menu.wju" style="color:grey"> Le hacking : une manière de se protéger  </a></li>
+=======
+                <li><a href="http://www.jsand.net/tutoriel_hacking_menu.wju" style="color:grey"> Le hacking : une manière de se protéger </a></li>
+>>>>>>> origin/master
                 
             </ul>
                 </li> 
             </ul>
-            </div>
+            </div> <!-- Menu coulissant Fin -->
         
-           <div>
+           <div> <!-- Menu coulissant Début -->
             <ul class="nav navbar-nav">
                 <li><a href="#"></a></li>
                 <li class="dropdown">
@@ -65,25 +69,24 @@
             </ul>
                 </li> 
             </ul>
-            </div>
+            </div> <!-- Menu coulissant Fin -->
             
         </div>
         </div>
     </nav> <!-- Barre Bootstrap Fin -->	
 
-<div class="gallery">
+<div class="gallery"> <!-- Gallery Début -->
   
   <!-- L'informatique à l'époque Début -->
-   <div class="imgWrap imgWrap1" style="background-image:url(../photos/informatiqueAlépoque/images_1920x1080/machineEnigmaOK.jpg);"> <!--1920x1080 pixels-->
+   <div class="imgWrap imgWrap1" style="background-image:url(../photos/informatiqueAlépoque/images_1920x1080/machineEnigmaOK.jpg);"> 
       <div class="full-content">
-          
-         
+           
          <div class="images">
             <ul class="gallery">
                <li>
                   <a href="../photos/informatiqueAlépoque/images_1200x800/ancienClavierOK.jpg" 
-                     class="with-caption image-link" >  <!--1200x800 pixels-->
-                  <img src="../photos/informatiqueAlépoque/images_150x125/ancienClavierOK.jpg"/> <!--150x125 pixels-->
+                     class="with-caption image-link" > 
+                  <img src="../photos/informatiqueAlépoque/images_150x125/ancienClavierOK.jpg"/> 
                   </a>
                </li>
                <li>
@@ -336,19 +339,20 @@
          </div>   	   
       </div>
    </div> <!-- Le hack : une manière de se protéger Fin --> 
-</div>
+   
+</div> <!-- Gallery Fin -->
 
 <div id="close" title="Close (Esc)" class="mfp-close">×</div> <!-- Cross pour fermer la galerie ou revenir en arrère --> 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> <!-- JQuery Bootstrap -->
  
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> <!-- JQuery Bootstrap -->
 
 <script src='http://dimsemenov-static.s3.amazonaws.com/dist/jquery.magnific-popup.min.js'></script> <!-- Visionneuse d'images lorsque l'on clique sur la miniature --> 
 
 <script src="../js/gallery.js"></script> <!-- Rend les images de la galerie cliquables + animation --> 
      
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> <!-- Javascript Bootstrap -->
 
   </body>
   
