@@ -11,11 +11,11 @@
     
  </head>
     
-    <body>
+ <body>
 
-    <div class="container">
+ <div class="container"> <!-- Container Début -->
     
-    	<nav class="navbar navbar-inverse"> <!-- Barre Bootstrap Début -->
+ <nav class="navbar navbar-inverse"> <!-- Barre Bootstrap Début -->
         <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -32,16 +32,28 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Accueil<span class="sr-only">(current)</span></a></li> <!-- Présentation du projet -->
-                <li><a href="/html/gallery.html"> Galerie d'images </a></li>
-                <li><a href=""> Part 1 </a></li>
-                <li><a href=""> Part 2 </a></li>
-                <li><a href=""> Part 3 </a></li>
-                <li><a href=""> Part 4 </a></li>
-                <li><a href=""> Part 5 </a></li> 
+                <li><a href="/html/gallery.html">Galerie d'images</a></li>
             </ul> 
+            
+            <div> <!-- Menu coulissant Début -->
+            <ul class="nav navbar-nav">
+                <li><a href="#"></a></li>
+                <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Parts<span class="caret"></span></a>
+            <ul class="dropdown-menu" style="background-color:black;">
+                <li><a href="http://delmas-rigoutsos.nom.fr/documents/YDelmas-histoire_informatique.pdf" style="color:grey"> L'informatique à l'époque </a></li>
+                <li><a href="http://www.netpublic.fr/2015/11/25-videos-pour-comprendre-la-culture-numerique/" style="color:grey" > La culture digitale de nos jours </a></li>
+                <li><a href="https://www.oculus.com/en-us/" style="color:grey"> En marche vers l'avenir </a></li>
+                <li><a href="https://openclassrooms.com/dashboard" style="color:grey"> Le code : une manière d'évoluer </a></li>
+                <li><a href="http://www.jsand.net/tutoriel_hacking_menu.wju" style="color:grey"> Le hacking : une manière de se protéger </a></li>
+                
+            </ul>
+                </li> 
+            </ul>
+            </div> <!-- Menu coulissant Fin -->
         
-           <div>
-            <ul class="nav navbar-nav navbar-right">
+           <div> <!-- Menu coulissant Début -->
+            <ul class="nav navbar-nav navbar">
                 <li><a href="#"></a></li>
                 <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nous suivre <span class="caret"></span></a>
@@ -53,21 +65,21 @@
             </ul>
                 </li> 
             </ul>
-            </div>
+            </div> <!-- Menu coulissant Fin -->
             
         </div>
         </div>
     </nav> <!-- Barre Bootstrap Fin -->	
 	
-	<section>
+	<section> <!-- Image de présentation Début -->
 		<div class="row group">
 			<div class="one-whole column">
 				<img src="../photos/image_home.jpg" class="scale-with-grid" alt="">
 			</div>
 		</div>
-	</section>
+	</section> <!-- Image de présentation Fin -->
 	
-	<section>
+	<section> <!-- Image 1ère et 2ème partie + texte Début -->
 		<div class="row group">
 			<div class="one-half column">
 				<img src="../photos/informatiqueAlépoque/images_800x400/machineEnigmaOK.jpg" class="scale-with-grid" alt="">
@@ -84,9 +96,9 @@
                     - Comment compte-t-elle évoluer ? <br> </p>
 			</div>
 		</div>
-	</section>
+	</section> <!-- Image 1ère et 2ème partie + texte Fin -->
 	
-	<section>
+	<section> <!-- Image 3ème, 4ème et 5ème partie + texte Début -->
 		<div class="row group">
 			<div class="one-third column">
 				<img src="../photos/EnMarcheVersLavenir/images_800x400/PSVROK.jpg" class="scale-with-grid" alt="">
@@ -98,26 +110,26 @@
 				<img src="../photos/imageCode/images_800x400/code1OK.png" class="scale-with-grid" alt="">
 				<h3> 4) Le code : une manière d'évoluer </h3>
 				<p> - Le développement informatique <br>
-                    - une avancée certaine au vu de nombreuses technologies <br> </p>
+                    - Une avancée certaine au vu de nombreuses technologies <br> </p>
 			</div>
 			<div class="one-third column">
 				<img src="../photos/imageHack/images_800x400/hackOK.jpg" class="scale-with-grid" alt="">
 				<h3> 5) Le hacking : une manière de se protéger </h3>
-				<p> - sécuriser ses informations personnelles </p>
+				<p> - Sécuriser ses informations personnelles </p>
 			</div>
 		</div>
-	</section>
+	</section> <!-- Image 3ème, 4ème et 5ème partie + texte Fin -->
 
-	<footer>
+	<footer> <!-- Copyright -->
 		&copy; Auriles Picture Expo
 	</footer>
 
 
-</div><!-- END CONTAINER -->
+</div> <!-- Container Fin -->
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> <!-- JQuery Bootstrap -->
     
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> <!-- Javascript Bootstrap -->
     
   </body>
   

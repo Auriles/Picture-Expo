@@ -20,4 +20,4 @@ Semaine du 11/04 au 17/04 : Finalisation du site et vérifications techniques
 Semaine du 18/04 au 24/04 : Powerpoint de présentation, (vidéo?) + préparation de l’oral
 - Création du Powerpoint pour la soutenance
 - Indications sur l'origine de l'image et sa description (à implémenter dans le code)
-- Préparation de l'oral 
+- Préparation de l'oral.
